@@ -64,7 +64,7 @@ export function ProjectDetail({ project, category, onClose }: ProjectDetailProps
 
       <motion.div
         {...contentIn}
-        className="relative grid items-center gap-8 p-6 pt-16 text-white sm:p-10 sm:pt-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,26rem)]"
+        className="relative grid items-center gap-10 p-6 pt-16 text-white sm:p-10 sm:pt-16 lg:grid-cols-2 lg:gap-12"
       >
         <div>
           <p className="text-xs font-semibold tracking-[0.18em] text-white/75 uppercase">
@@ -72,7 +72,7 @@ export function ProjectDetail({ project, category, onClose }: ProjectDetailProps
           </p>
           <h3
             id={titleId}
-            className="mt-3 font-display text-5xl leading-[0.95] font-extrabold tracking-tight text-balance sm:text-7xl"
+            className="mt-3 font-display text-5xl leading-[0.95] font-extrabold tracking-tight text-balance sm:text-7xl lg:text-6xl 2xl:text-7xl"
           >
             {project.title}
             <span className="text-accent">.</span>
@@ -122,8 +122,8 @@ export function ProjectDetail({ project, category, onClose }: ProjectDetailProps
         </div>
 
         {project.video || project.image ? (
-          <div className="mx-auto w-full max-w-[26rem]">
-            <DeviceStage>
+          <div className="mx-auto w-full max-w-3xl lg:max-w-none">
+            <DeviceStage kind={project.device}>
               <DeviceFrame kind={project.device} title={project.title}>
                 {project.video ? (
                   <ProjectVideo video={project.video} />
@@ -132,7 +132,7 @@ export function ProjectDetail({ project, category, onClose }: ProjectDetailProps
                     src={project.image.src}
                     alt={project.image.alt}
                     fill
-                    sizes="(min-width: 1024px) 26rem, 80vw"
+                    sizes="(min-width: 1024px) 40vw, 90vw"
                     className="object-cover object-top"
                   />
                 ) : null}

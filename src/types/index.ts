@@ -78,7 +78,7 @@ export type Testimonial = {
   name: string;
   role: string;
   organization: string;
-  photo?: string;
+  photo?: { src: string; alt: string };
 };
 
 export type TimelineItem = {

@@ -9,13 +9,13 @@ import { ProjectCover } from "@/components/ui/ProjectCover";
 const categoryLabel = (id: string) =>
   projectCategories.find((category) => category.id === id)?.label ?? id;
 
-// Home view: a featured card with the photo as a wide poster strip.
+// Home view: the intro text with the photo beside it, its top level with the name.
 export function Hero() {
   const isSvgPhoto = profile.photo.src.endsWith(".svg");
 
   return (
     <section aria-labelledby="hero-title">
-      <StaggerGroup className="grid items-center gap-10 lg:min-h-[calc(100dvh-14rem)] lg:grid-cols-[minmax(0,1fr)_minmax(16rem,22rem)] lg:gap-14">
+      <StaggerGroup className="grid items-center gap-10 lg:min-h-[calc(100dvh-14rem)] lg:grid-cols-[minmax(0,36rem)_minmax(16rem,22rem)] lg:content-center lg:items-start lg:justify-start lg:gap-16 xl:gap-20">
         <div className="order-2 lg:order-1">
           <StaggerItem>
             <p className="text-lg text-muted">{profile.greeting}</p>
@@ -95,7 +95,7 @@ export function Hero() {
           </StaggerItem>
         </div>
 
-        <StaggerItem className="order-1 mx-auto w-full max-w-[15rem] sm:max-w-[19rem] lg:order-2 lg:max-w-[22rem]">
+        <StaggerItem className="order-1 mx-auto w-full max-w-[15rem] sm:max-w-[19rem] lg:order-2 lg:mx-0 lg:mt-11 lg:max-w-[22rem]">
           <div className="relative isolate">
             {/* Susanoo-like chakra aura burning behind the photo */}
             <div aria-hidden="true" className="susanoo absolute -inset-[12%] -z-10">
