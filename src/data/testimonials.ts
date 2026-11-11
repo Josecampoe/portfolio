@@ -9,7 +9,7 @@ export const testimonials: Testimonial[] = [
       "Trabajar con José ha sido una experiencia muy positiva; es una persona responsable, comprometida y con una gran disposición para aprender. Destaco su capacidad para resolver problemas, su iniciativa y la facilidad que tiene para trabajar en equipo. Sin duda, es alguien en quien se puede confiar y que demuestra un gran potencial profesional.",
     name: "Angie Daniela Ibarra",
     role: "Ingeniera electrónica",
-    organization: "Magíster en Biomédica",
+    organization: "Magíster en Ingeniería Biomédica",
     photo: {
       src: "/images/testimonials/angie-ibarra.webp",
       alt: "Foto de Angie Daniela Ibarra",
