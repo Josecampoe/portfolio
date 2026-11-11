@@ -79,6 +79,8 @@ export type Testimonial = {
   role: string;
   organization: string;
   photo?: { src: string; alt: string };
+  // Profile opened when the photo is clicked.
+  linkedin?: string;
 };
 
 export type TimelineItem = {

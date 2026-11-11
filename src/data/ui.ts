@@ -21,6 +21,9 @@ export const uiText = {
     cvCta: "Ver hoja de vida",
     featured: "Proyectos destacados",
   },
+  testimonials: {
+    linkedin: "Ver el perfil de LinkedIn de",
+  },
   projects: {
     code: "Ver código",
     open: "Abrir",

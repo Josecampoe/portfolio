@@ -6,7 +6,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t1",
     quote:
-      "Durante el tiempo que he tenido la oportunidad de trabajar con José, he podido conocer a una persona comprometida, curiosa y con una gran iniciativa para aprender y superar cualquier desafío. Siempre me ha llamado la atención su capacidad para analizar situaciones, proponer soluciones y encontrar la manera de sacar adelante las tareas, incluso cuando las cosas se complican. Más allá de sus conocimientos, destacaría su calidad humana, su disposición para colaborar y la confianza que transmite al trabajar en equipo; considero que tiene un enorme potencial y que será un profesional que aportará mucho en cualquier equipo del que forme parte.",
+      "Trabajar con José ha sido una experiencia muy positiva; es una persona responsable, comprometida y con una gran disposición para aprender. Destaco su capacidad para resolver problemas, su iniciativa y la facilidad que tiene para trabajar en equipo. Sin duda, es alguien en quien se puede confiar y que demuestra un gran potencial profesional.",
     name: "Angie Daniela Ibarra",
     role: "Ingeniera electrónica",
     organization: "Magíster en Biomédica",
@@ -14,6 +14,7 @@ export const testimonials: Testimonial[] = [
       src: "/images/testimonials/angie-ibarra.webp",
       alt: "Foto de Angie Daniela Ibarra",
     },
+    linkedin: "https://www.linkedin.com/in/daniela-benavides-679406273/",
   },
   {
     id: "t2",
