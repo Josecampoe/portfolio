@@ -20,7 +20,7 @@ import {
   SparklesIcon,
   TrophyIcon,
 } from "@/components/ui/Icons";
-import { ScatterGallery } from "./ScatterGallery";
+import { ProjectMosaic } from "./ProjectMosaic";
 
 const icons: Record<InterestIcon, ComponentType<SVGProps<SVGSVGElement>>> = {
   fun: SmileIcon,
@@ -104,7 +104,7 @@ export function About() {
         </StaggerGroup>
 
         <StaggerItem>
-          <ScatterGallery title={galleryTitle} items={gallery} />
+          <ProjectMosaic title={galleryTitle} items={gallery} />
         </StaggerItem>
       </StaggerGroup>
     </section>

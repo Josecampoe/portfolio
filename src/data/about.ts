@@ -56,69 +56,67 @@ export const focusAreas: FocusArea[] = [
 
 export const galleryTitle = "Un vistazo a lo que hago";
 
-// Scattered gallery with real captures of my projects.
+// Mosaic of the current projects: demo videos and real captures.
 export const gallery: GalleryItem[] = [
   {
-    id: "g-caso-hall",
-    caption: "El Caso 404 · pasillo del Edificio Mirador",
-    shape: "wide",
-    image: {
-      src: "/projects/caso-404-poster.webp",
-      alt: "Pasillo del Edificio Mirador en El Caso 404",
-    },
+    id: "g-caso",
+    projectId: "caso-404",
+    caption: "Interrogatorios con IA en un videojuego 3D",
+    size: "feature",
+    frame: "fill",
   },
   {
-    id: "g-pmp-report",
-    caption: "PMP Smart · reporte fitosanitario",
-    shape: "tall",
-    image: {
-      src: "/images/projects/pmp-smart-cover.webp",
-      alt: "Reporte fitosanitario de PMP Smart con el diagnóstico de una hoja",
-    },
+    id: "g-pmp",
+    projectId: "pmp-smart",
+    caption: "Diagnóstico de la hoja con una foto",
+    size: "tall",
+    frame: "phone",
   },
   {
-    id: "g-pmp-tech",
-    caption: "PMP Smart · vista del técnico agrónomo",
-    shape: "tall",
-    image: {
-      src: "/images/gallery/pmp-smart-vigilancia.webp",
-      alt: "Vista de vigilancia del técnico en PMP Smart con una parcela vinculada",
-    },
+    id: "g-busalert",
+    projectId: "busalert",
+    caption: "Dices a dónde vas y el reloj te guía",
+    size: "tall",
+    frame: "watch",
+  },
+  {
+    id: "g-tallerpro",
+    projectId: "tallerpro",
+    caption: "Órdenes, inventario y reportes del taller",
+    size: "feature",
+    frame: "fill",
   },
   {
     id: "g-tallerpro-ai",
-    caption: "TallerPro · cotizador de repuestos con IA",
-    shape: "wide",
+    projectId: "tallerpro",
+    caption: "Cotizador de repuestos con IA",
+    size: "wide",
+    frame: "fill",
     image: {
       src: "/images/gallery/tallerpro-cotizador.webp",
       alt: "Cotizador con IA de TallerPro mostrando tres opciones de kit de arrastre",
     },
   },
   {
-    id: "g-busalert",
-    caption: "BusAlert · pantalla del reloj",
-    shape: "square",
-    image: {
-      src: "/projects/busalert.webp",
-      alt: "Pantalla principal de BusAlert en el reloj",
-    },
-  },
-  {
     id: "g-caso-file",
-    caption: "El Caso 404 · expediente del caso 1",
-    shape: "wide",
+    projectId: "caso-404",
+    caption: "Expediente del caso 1",
+    size: "small",
+    frame: "fill",
     image: {
       src: "/images/gallery/caso-404-expediente.webp",
       alt: "Tarjeta del expediente del caso 1 de El Caso 404",
     },
   },
   {
-    id: "g-caso-room",
-    caption: "El Caso 404 · sala de interrogatorio",
-    shape: "wide",
+    id: "g-pmp-tech",
+    projectId: "pmp-smart",
+    caption: "Vista del técnico agrónomo",
+    size: "small",
+    frame: "phone",
     image: {
-      src: "/images/gallery/caso-404-interrogatorio.webp",
-      alt: "Sala de interrogatorio de El Caso 404 con sospechosos sentados a la mesa",
+      src: "/images/gallery/pmp-smart-vigilancia.webp",
+      alt: "Vista de vigilancia del técnico en PMP Smart con una parcela vinculada",
     },
   },
 ];

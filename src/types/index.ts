@@ -111,9 +111,14 @@ export type FocusArea = {
 
 export type GalleryItem = {
   id: string;
+  // Project the tile opens; its title, tint and demo video come from there.
+  projectId: string;
   caption: string;
+  // Without "image" the tile plays the project's demo video.
   image?: { src: string; alt: string };
-  // Natural shape of the photo, used by the scattered gallery.
-  shape: "tall" | "wide" | "square";
+  // Size in the mosaic: feature 2x2, tall 1x2, wide 2x1, small 1x1.
+  size: "feature" | "tall" | "wide" | "small";
+  // How the media sits in the tile: full bleed, inside a phone or inside a round watch.
+  frame: "fill" | "phone" | "watch";
 };
 
