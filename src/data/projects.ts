@@ -105,9 +105,12 @@ export const projects: Project[] = [
       kind: "icon",
     },
     tint: "#5c0a20",
-    image: {
-      src: "/projects/busalert.webp",
-      alt: "Pantalla principal de BusAlert en un reloj Wear OS: botón de micrófono para consultar qué bus tomar en Pasto",
+    video: {
+      webm: "/projects/busalert.webm",
+      mp4: "/projects/busalert.mp4",
+      poster: "/projects/busalert-poster.webp",
+      label:
+        "Demostración de BusAlert en un reloj Wear OS: el usuario dice a dónde va, el reloj ubica su barrio por GPS, recomienda la ruta con el tiempo aproximado y la guarda en favoritos",
     },
     github: `${github}/ProjectBusAlert`,
     demo: { label: "Descargar APK", url: `${github}/ProjectBusAlert/releases` },
