@@ -1,7 +1,6 @@
 import type { Testimonial } from "@/types";
 
-// TODO: minimum 3 REAL testimonials from teachers, work leaders or tech contacts.
-// Not from family or classmates, and not written with AI.
+// Teachers and tech contacts who agreed to appear here.
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
@@ -19,17 +18,27 @@ export const testimonials: Testimonial[] = [
   {
     id: "t2",
     quote:
-      "Aquí va el testimonio real de un líder de proyecto, mentor o contacto del sector tecnológico.",
-    name: "Nombre de la persona",
-    role: "Cargo",
-    organization: "Empresa o programa",
+      "José aprende rápido y lleva lo visto en clase a sus propios proyectos: sus APIs en Node.js y TypeScript están bien organizadas, con validaciones y una estructura clara. Cumple con sus entregas.",
+    name: "Ivonne Barco",
+    role: "Docente, electiva de NestJS",
+    organization: "Universidad Cooperativa de Colombia",
+    photo: {
+      src: "/images/testimonials/ivonne-barco.webp",
+      alt: "Foto de Ivonne Barco",
+    },
+    linkedin: "https://www.linkedin.com/in/ivonnebarco/",
   },
   {
     id: "t3",
     quote:
-      "Aquí va un tercer testimonio real de alguien con quien hayas trabajado en tecnología.",
-    name: "Nombre de la persona",
-    role: "Cargo",
-    organization: "Empresa o programa",
+      "José es un estudiante comprometido y curioso. Trabaja bien en equipo y tiene muy buena proyección como ingeniero de software.",
+    name: "Javier Alexander Mendieta Ortega",
+    role: "Docente de Arquitectura de Software y Computacional",
+    organization: "Universidad Cooperativa de Colombia",
+    photo: {
+      src: "/images/testimonials/javier-mendieta.webp",
+      alt: "Foto de Javier Alexander Mendieta Ortega",
+    },
+    linkedin: "https://www.linkedin.com/in/jamodev/",
   },
 ];

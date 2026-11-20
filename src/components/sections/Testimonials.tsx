@@ -5,7 +5,7 @@ import { uiText } from "@/data/ui";
 import { getInitials } from "@/lib/validation";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StaggerGroup, StaggerItem } from "@/components/ui/Stagger";
-import { QuoteIcon } from "@/components/ui/Icons";
+import { LinkedInIcon, QuoteIcon } from "@/components/ui/Icons";
 import { StableHeight } from "@/components/ui/StableHeight";
 
 // Tall cards in a row on wide screens (stacked below, so long quotes stay
@@ -65,12 +65,23 @@ export function Testimonials() {
                         {getInitials(testimonial.name)}
                       </span>
                     )}
-                    <span>
+                    <span className="min-w-0 flex-1">
                       <span className="block font-semibold">{testimonial.name}</span>
                       <span className="block text-sm text-muted">
                         {testimonial.role} · {testimonial.organization}
                       </span>
                     </span>
+                    {testimonial.linkedin && (
+                      <a
+                        href={testimonial.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${uiText.testimonials.linkedin} ${testimonial.name}`}
+                        className="grid size-10 shrink-0 place-items-center self-start rounded-full border border-transparent text-muted transition-colors duration-300 hover:border-accent hover:text-accent focus-visible:border-accent focus-visible:text-accent"
+                      >
+                        <LinkedInIcon />
+                      </a>
+                    )}
                   </figcaption>
                 </figure>
               </StaggerItem>
