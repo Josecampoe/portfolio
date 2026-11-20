@@ -45,27 +45,35 @@ export const workExperience: TimelineItem[] = [
   },
 ];
 
-// TODO: complete with your real studies, courses and English level.
 export const education: TimelineItem[] = [
   {
     id: "e1",
     title: "Ingeniería de Software",
-    place: "Universidad",
-    period: "Año de inicio – actualidad",
+    place: "Universidad Cooperativa de Colombia · Campus Pasto",
+    period: "2024 – actualidad · 5.º semestre",
     description: "Pregrado en Ingeniería de Software.",
   },
   {
     id: "e2",
-    title: "Diplomado o certificado",
-    place: "Institución",
-    period: "Año",
-    description: "Qué aprendiste.",
+    title: "Técnico Laboral en Soporte y Mantenimiento en Tecnologías de la Información",
+    place: "HIGH SYSTEM Instituto Técnico",
+    period: "2023 · 600 horas",
+    description:
+      "Adquirí conocimientos en soporte técnico, mantenimiento de equipos y tecnologías de la información.",
   },
   {
     id: "e3",
+    title: "Emprendimiento e Innovación Empresarial",
+    place: "Politécnico Andino de Colombia",
+    period: "2019 · 90 horas",
+    description:
+      "Desarrollé conocimientos sobre emprendimiento, innovación y creación de ideas de negocio.",
+  },
+  {
+    id: "e4",
     title: "Inglés",
-    place: "Certificación o institución",
-    period: "Nivel",
-    description: "Tu nivel de inglés (A2, B1, B2…).",
+    place: "Idioma extranjero",
+    period: "Nivel básico",
+    description: "Nivel básico de inglés.",
   },
 ];
