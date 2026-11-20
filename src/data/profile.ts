@@ -28,8 +28,8 @@ export const profile: Profile = {
     src: "/images/profile.webp",
     alt: "Foto de José Manuel Campo Erazo",
   },
-  // Public Google Drive link to your 1-page CV
-  cvUrl: "#",
+  // 1-page CV served from public/cv
+  cvUrl: "/cv/Jose-Manuel-Campo-Erazo-CV.pdf",
   // Professional email (no birth dates or extra numbers)
   email: "josecampoerazo2@gmail.com",
   socials: [
