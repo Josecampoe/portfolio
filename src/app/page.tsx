@@ -7,7 +7,6 @@ import { About } from "@/components/sections/About";
 import { Projects } from "@/components/sections/Projects";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Experience } from "@/components/sections/Experience";
-import { Languages } from "@/components/sections/Languages";
 import { Contact } from "@/components/sections/Contact";
 
 // Each section is a view of the frame; the keys match the ids in src/data/navigation.ts.
@@ -23,7 +22,6 @@ export default function HomePage() {
           projects: <Projects />,
           testimonials: <Testimonials />,
           experience: <Experience />,
-          languages: <Languages />,
           contact: <Contact />,
         }}
         footer={<Footer />}

@@ -25,15 +25,8 @@ export const sections = {
     title: "Trayectoria académica y técnica",
     intro: "",
   },
-  languages: {
-    index: "05",
-    label: "Idiomas",
-    title: "Idiomas",
-    intro:
-      "Los idiomas que hablo y en los que puedo trabajar.",
-  },
   contact: {
-    index: "06",
+    index: "05",
     label: "Contacto",
     title: "¿Construimos algo juntos?",
     intro:

@@ -15,7 +15,7 @@ export function Hero() {
 
   return (
     <section aria-labelledby="hero-title">
-      <StaggerGroup className="grid items-center gap-10 lg:min-h-[calc(100dvh-14rem)] lg:grid-cols-[minmax(0,36rem)_minmax(16rem,22rem)] lg:content-center lg:items-start lg:justify-start lg:gap-16 xl:gap-20">
+      <StaggerGroup className="grid items-center gap-10 lg:min-h-[calc(100dvh-14rem)] lg:grid-cols-[minmax(0,36rem)_minmax(0,1fr)] lg:content-center lg:items-start lg:gap-12 xl:gap-16">
         <div className="order-2 lg:order-1">
           <StaggerItem>
             <p className="text-lg text-muted">{profile.greeting}</p>
@@ -95,7 +95,7 @@ export function Hero() {
           </StaggerItem>
         </div>
 
-        <StaggerItem className="order-1 mx-auto w-full max-w-[15rem] sm:max-w-[19rem] lg:order-2 lg:mx-0 lg:mt-11 lg:max-w-[22rem]">
+        <StaggerItem className="order-1 mx-auto w-full max-w-[16rem] sm:max-w-[20rem] lg:order-2 lg:mr-[4%] lg:max-w-[24rem] lg:self-center lg:justify-self-end xl:mr-[7%] xl:max-w-[28rem] 2xl:max-w-[30rem]">
           <div className="relative isolate">
             {/* Susanoo-like chakra aura burning behind the photo */}
             <div aria-hidden="true" className="susanoo absolute -inset-[12%] -z-10">
@@ -110,11 +110,11 @@ export function Hero() {
                 src={profile.photo.src}
                 alt={profile.photo.alt}
                 fill
-                sizes="(min-width: 1024px) 352px, 90vw"
+                sizes="(min-width: 1280px) 480px, (min-width: 1024px) 384px, 90vw"
                 loading="eager"
                 fetchPriority="high"
                 unoptimized={isSvgPhoto}
-                className="object-cover"
+                className="object-cover object-[50%_40%]"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4 pt-12 text-white">
                 <p className="text-xs text-white/80">{profile.badge.label}</p>

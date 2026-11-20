@@ -92,14 +92,6 @@ export type TimelineItem = {
   tags?: string[];
 };
 
-export type Language = {
-  id: string;
-  greeting: string;
-  name: string;
-  level: string;
-  note: string;
-};
-
 export type InterestIcon = "fun" | "sports" | "games" | "music" | "security" | "ai";
 
 export type Interest = {
