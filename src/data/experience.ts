@@ -31,7 +31,7 @@ export const workExperience: TimelineItem[] = [
     place: "Proyecto académico · Escritorio",
     period: "2026",
     description:
-      "Aplicación de escritorio con base de datos, migraciones, pruebas automatizadas e instalador para Windows.",
+      "Aplicación de escritorio con base de datos, migraciones, pruebas automatizadas e instalador propio.",
     tags: ["Python", "PySide6", "pytest"],
   },
   {

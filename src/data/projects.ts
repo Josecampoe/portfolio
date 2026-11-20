@@ -69,7 +69,7 @@ export const projects: Project[] = [
     id: "tallerpro",
     title: "TallerPro",
     description:
-      "Sistema de gestión para talleres de reparación de motos en Windows: clientes, órdenes, inventario y reportes, con un cotizador de repuestos con IA que protege la clave detrás de un proxy propio.",
+      "Aplicación de escritorio para gestionar talleres de reparación de motos: clientes, órdenes, inventario y reportes, con un cotizador de repuestos con IA que protege la clave detrás de un proxy propio.",
     categories: ["desktop", "ai"],
     tags: ["Python", "PySide6", "SQLAlchemy", "Alembic", "Gemini"],
     year: "2026",
