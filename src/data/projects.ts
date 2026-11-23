@@ -94,7 +94,7 @@ export const projects: Project[] = [
     id: "busalert",
     title: "BusAlert",
     description:
-      "Asistente de transporte público para San Juan de Pasto en relojes Wear OS. Dices a dónde vas y el reloj te indica qué bus tomar, dónde subir y dónde bajar, en pantalla y en voz alta. Incluye app de teléfono sincronizada.",
+      "Asistente de transporte público para San Juan de Pasto en relojes Wear OS. Dices a dónde vas y el reloj te indica qué bus tomar, dónde subir y dónde bajar, en pantalla y en voz alta.",
     categories: ["smartwatch", "mobile"],
     tags: ["Kotlin", "Jetpack Compose", "Wear OS", "Node.js", "SQLite"],
     year: "2026",

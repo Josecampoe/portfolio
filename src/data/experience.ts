@@ -40,7 +40,7 @@ export const workExperience: TimelineItem[] = [
     place: "Proyecto académico · Smartwatch",
     period: "2026",
     description:
-      "App para Wear OS y teléfono con API en Node.js y TypeScript, planificador de rutas y estimación de tiempos de llegada.",
+      "App para Wear OS con API en Node.js y TypeScript, planificador de rutas y estimación de tiempos de llegada.",
     tags: ["Kotlin", "Wear OS", "Node.js"],
   },
 ];
